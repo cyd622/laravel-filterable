@@ -1,0 +1,22 @@
+{
+    "name": "cyd622/laravel-filterable",
+    "type": "library",
+    "description": "Laravel package for dynamically filtering Eloquent results using URL query string.",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel 4", "eloquent", "database"],
+    "authors": [
+        {
+            "name": "cyd622",
+            "email": "luffywang622@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": ">=4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Laravel\\Filterable\\": "src/"
+        }
+    }
+}
